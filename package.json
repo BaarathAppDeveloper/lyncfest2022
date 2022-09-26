@@ -1,5 +1,6 @@
 {
   "name": "hackathon",
+  "homepage": "https://BaarathAppDeveloper.github.io/lyncfest2022",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,7 @@
     "aos": "^2.3.4",
     "firebase": "^9.10.0",
     "framer-motion": "^6.2.4",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-font": "^1.2.1",
@@ -26,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
