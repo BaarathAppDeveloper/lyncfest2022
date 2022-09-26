@@ -27,7 +27,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/hackathon" element={<Hackathon />} />
-            <Route path="/lyncfest2022" element={<Symp />} />
+            <Route path="/" element={<Symp />} />
             <Route path="hackathon/PS" element={<Table />} />
             <Route path="/hackathon/details" element={<Modal />} />
             <Route path="/link-to-link" element={<Link1 />} />

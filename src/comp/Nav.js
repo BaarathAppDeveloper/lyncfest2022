@@ -29,7 +29,7 @@ const Nav = () => {
                   alt="Workflow"
                 />
               </a>
-              <a href="/hackathon">
+              <a href="lyncfest2022/hackathon">
                 <div class="py-8 px-3 text-3xl font-bold text-stone-100 font-nunito">
                   Hack in Hub @ SIT
                 </div>
@@ -42,7 +42,7 @@ const Nav = () => {
               <div className="py-5 px-5">
                 <div className="ml-10 flex items-baseline space-x-4 text-lg">
                   <a
-                    href="#schedule"
+                    href="lyncfest2022/#schedule"
                     className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-semibold"
                   >
                     Schedule

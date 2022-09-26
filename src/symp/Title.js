@@ -52,7 +52,7 @@ const Title = () => {
                 <div className="">
                   <div className="ml-10 flex items-baseline space-x-4 text-lg font-nunito font-bold">
                     <a
-                      href="/"
+                      href=""
                       className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-semibold"
                     >
                       Home
@@ -79,13 +79,13 @@ const Title = () => {
                       Hackathon
                     </a>
                     <a
-                      href="#footer"
+                      href="/#footer"
                       className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                     >
                       Contact
                     </a>
                     <a
-                      href="#sponsers"
+                      href="/#sponsers"
                       className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                     >
                       Sponsers
@@ -100,7 +100,7 @@ const Title = () => {
                       class="p-2 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-sky-500 hover:text-white"
                     >
                       <a
-                        href="#events"
+                        href="/lyncfest2022/#events"
                         className="text-gray-100 text-xl px-3 py-2 rounded-md  font-medium"
                       >
                         Register
