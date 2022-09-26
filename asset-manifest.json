@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/lyncfest2022/static/css/main.7e53604c.css",
+    "main.js": "/lyncfest2022/static/js/main.943d8f1a.js",
+    "static/js/787.6dc5d524.chunk.js": "/lyncfest2022/static/js/787.6dc5d524.chunk.js",
+    "static/media/application-dev-banner@2x.png": "/lyncfest2022/static/media/application-dev-banner@2x.0d2774903cc77de1cf29.png",
+    "static/media/BOSSE.png": "/lyncfest2022/static/media/BOSSE.f90501e0c4f8a6006772.png",
+    "static/media/blockchain.png": "/lyncfest2022/static/media/blockchain.3a1245405ac9d16b1223.png",
+    "static/media/sdgs-removebg-preview.png": "/lyncfest2022/static/media/sdgs-removebg-preview.4b22665b6712a502d745.png",
+    "static/media/fresa.png": "/lyncfest2022/static/media/fresa.88e33a5480cb5eb24819.png",
+    "static/media/sirsub.png": "/lyncfest2022/static/media/sirsub.00a8eba8114521897ff4.png",
+    "static/media/arvr.jpg": "/lyncfest2022/static/media/arvr.0321179ad9881ace9efd.jpg",
+    "static/media/tagros.png": "/lyncfest2022/static/media/tagros.9adce5835dc3eed4054e.png",
+    "static/media/hope.png": "/lyncfest2022/static/media/hope.ebc88ef71a05a263a9af.png",
+    "static/media/iot.jpg": "/lyncfest2022/static/media/iot.455df14501df6f9599a5.jpg",
+    "static/media/logo-removebg-preview.png": "/lyncfest2022/static/media/logo-removebg-preview.7aefdf7a257d11c427d3.png",
+    "static/media/garland-removebg-preview.png": "/lyncfest2022/static/media/garland-removebg-preview.2200c4f299b51803da54.png",
+    "static/media/HH.png": "/lyncfest2022/static/media/HH.94e7a210c876c68c5323.png",
+    "static/media/sit1.png": "/lyncfest2022/static/media/sit1.2254326341d4db76ca85.png",
+    "static/media/technical-support-removebg-preview.png": "/lyncfest2022/static/media/technical-support-removebg-preview.873171e632c0ee462e47.png",
+    "static/media/hack in hub.png": "/lyncfest2022/static/media/hack in hub.8afd9266cf6508a12371.png",
+    "static/media/ml.jpg": "/lyncfest2022/static/media/ml.66fd9e56732814b262ed.jpg",
+    "static/media/group.png": "/lyncfest2022/static/media/group.9b0c33ce296c267bd518.png",
+    "static/media/placeholder.png": "/lyncfest2022/static/media/placeholder.1113f1252a1946ff7e85.png",
+    "static/media/technical-support.png": "/lyncfest2022/static/media/technical-support.24c945fe7017dc9be7c3.png",
+    "static/media/hack_in_hub-removebg-preview.png": "/lyncfest2022/static/media/hack_in_hub-removebg-preview.41cc54c3e2acf3d9a5b5.png",
+    "static/media/legionz.png": "/lyncfest2022/static/media/legionz.014c345e1f21e01d3ae8.png",
+    "static/media/let's cliq.png": "/lyncfest2022/static/media/let's cliq.1c8b42a675e8a43c1361.png",
+    "static/media/letter box.png": "/lyncfest2022/static/media/letter box.ac63e485d15c6a725a16.png",
+    "static/media/lync fest.jpg": "/lyncfest2022/static/media/lync fest.fe06eaea0adbbb63bff8.jpg",
+    "static/media/link-a-link.png": "/lyncfest2022/static/media/link-a-link.9a6c90bef80c5bbef89f.png",
+    "static/media/la Inquizition.png": "/lyncfest2022/static/media/la Inquizition.60a02e8fdba1724dffa9.png",
+    "static/media/logo.svg": "/lyncfest2022/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lyncfest2022/index.html",
+    "main.7e53604c.css.map": "/lyncfest2022/static/css/main.7e53604c.css.map",
+    "main.943d8f1a.js.map": "/lyncfest2022/static/js/main.943d8f1a.js.map",
+    "787.6dc5d524.chunk.js.map": "/lyncfest2022/static/js/787.6dc5d524.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e53604c.css",
+    "static/js/main.943d8f1a.js"
+  ]
+}
