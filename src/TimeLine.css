@@ -1,0 +1,13 @@
+.aboutus {
+  width: 100%;
+  background-color: rgb(196, 175, 175);
+  text-decoration: orange;
+
+}
+
+.aboutus>p {
+  font-size: 18px;
+  color: var(--palette-yellow);
+  line-height: 40px;
+
+}
