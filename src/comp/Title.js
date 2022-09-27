@@ -1,8 +1,5 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
-
 import Hack1 from "../hack_in_hub-removebg-preview.png";
-
 import venue from "../imgs/placeholder.png";
 import team from "../imgs/group.png";
 import money from "../imgs/euros-money-bag.png";
@@ -50,9 +47,6 @@ const Title = () => {
                   hackathon by solving difficult problems faced by the folks.
                 </span>
               </h1>
-              {/*<p class="text-lg font-medium text-center">
-                            Join. Build. Learn. Tryhard in Hack in Hub ‘22. Bring-out your hidden tech genius in this 24 hours hackathon by solving difficult problems faced by the folks.
-    </p>*/}
               <div class="py-5">
                 <div class="flex items-center space-x-5 text-md font-semibold font-3xl p-4">
                   <a
@@ -74,25 +68,16 @@ const Title = () => {
               >
                 <div class="flex">
                   <span class="text-2xl text-slate-700 px-2 ">
-                    <img src={venue} height={50} width={50} />
+                    <img src={venue} height={50} width={50} alt="venue" />
                   </span>
                   <span class="text-2xl text-slate-700 py-2">
                     : Sairam Institutions{" "}
                   </span>
-                  {/*<p class="font-bold text-xl py-0 px-0 text-slate-700"><br />
-                                        {'\n'}
-                                        @<br />
-                                        Sairam Institute
-
-</p>*/}
                 </div>
               </div>
-              <a
-                class="bg-teal-500 text-white px-8 py-2 rounded-md flex items-center space-x-2"
-                href="re"
-              >
+              <div class="bg-teal-500 text-white px-8 py-2 rounded-md flex items-center space-x-2">
                 <span class="text-2xl text-slate-700 px-2 ">
-                  <img src={team} height={50} width={50} />
+                  <img src={team} height={50} width={50} alt="team" />
                 </span>
 
                 <span>
@@ -101,13 +86,10 @@ const Title = () => {
                     <br />
                   </text>
                 </span>
-              </a>
-              <a
-                class="bg-teal-500 text-white px-4 py-2 rounded-md flex items-center space-x-2"
-                href="re"
-              >
+              </div>
+              <div class="bg-teal-500 text-white px-4 py-2 rounded-md flex items-center space-x-2">
                 <span class="text-2xl text-slate-700 px-2">
-                  <img src={money} height={50} width={50} />
+                  <img src={money} height={50} width={50} alt="money" />
                 </span>
 
                 <span>
@@ -116,7 +98,7 @@ const Title = () => {
                     <br />
                   </text>
                 </span>
-              </a>
+              </div>
             </div>
           </div>
         </div>

@@ -168,9 +168,9 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class="px-40">
+            <div class="">
               <img
-                class="bg-gray-800 px-36 py-4"
+                class="bg-gray-800 w-14 py-4"
                 src={Location}
                 height={350}
                 width={350}

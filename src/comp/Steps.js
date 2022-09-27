@@ -1,10 +1,13 @@
 import React from "react";
-
+import Result from "../imgs/results.jpeg";
 const Steps = () => {
   return (
     <div id="schedule">
       <section className="bg-black text-gray-400">
-        <div className="container mx-auto flex flex-col p-6">
+        <div
+          className="container mx-auto flex flex-col p-6"
+          id="hackathon-schedule"
+        >
           <h2 className="py-4 text-3xl font-bold text-center">
             Event Schedule
           </h2>
@@ -51,10 +54,10 @@ const Steps = () => {
                   Phase 2
                 </span>
                 <span className="text-xl font-bold md:text-2xl">
-                  Shortlisting
+                  Idea submission
                 </span>
                 <span className="mt-4 dark:text-gray-300">
-                  Shortlisted Results Date:TBA
+                  Shortlisted Results Date: TBA
                 </span>
               </div>
             </div>
@@ -76,7 +79,7 @@ const Steps = () => {
                 </span>
                 <span className="text-xl font-bold md:text-2xl">Hackathon</span>
                 <span className="mt-4 font-nunito  dark:text-gray-300">
-                  October 19 10.00 A.M ~ October 20 10.00 A.M
+                  October 19 10.00 A.M ~ October 20, 10.00 A.M
                 </span>
               </div>
             </div>
@@ -97,32 +100,31 @@ const Steps = () => {
                 <span className="text-xs tracking-wider uppercase dark:text-violet-400">
                   Phase 4{" "}
                 </span>
-                <span className="text-xl font-bold md:text-2xl">Judging</span>
+                <span className="text-xl font-bold md:text-2xl">
+                  Evaluation
+                </span>
                 <span className="mt-4 font-nunito dark:text-gray-300">
-                  Results : October 20 10.30 P.M
+                  Results : October 20, 10.30 P.M
                 </span>
               </div>
             </div>
             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
               <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  fill="currentColor"
-                  className="w-16 h-16"
-                >
-                  <polygon points="388.632 393.82 495.823 255.94 388.684 118.178 363.424 137.822 455.288 255.944 363.368 374.18 388.632 393.82"></polygon>
-                  <polygon points="148.579 374.181 56.712 255.999 148.629 137.823 123.371 118.177 16.177 255.993 123.314 393.819 148.579 374.181"></polygon>
-                  <polygon points="330.529 16 297.559 16 178.441 496 211.412 496 330.529 16"></polygon>
-                </svg>
+                <img
+                  src={Result}
+                  alt="result"
+                  className="w-24 opacity-70 ml-5"
+                />
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                 <span className="text-xs tracking-wider uppercase dark:text-violet-400">
                   Phase 5{" "}
                 </span>
-                <span className="text-xl font-bold md:text-2xl">Results</span>
+                <span className="text-xl font-bold md:text-2xl">
+                  Declaration of Results
+                </span>
                 <span className="mt-4 font-nunito dark:text-gray-300">
-                  Results : October 20 3.00 P.M
+                  Results : October 20, 3.00 P.M
                 </span>
               </div>
             </div>

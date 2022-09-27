@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <div class="py-0 bg-black">
       <Nav />
-
       <Title />
       <Steps />
       <Domains />
