@@ -15,7 +15,7 @@ const Sponsor = () => {
         Sponsors
       </center>
 
-      <div class="flex items-center justify-around px-28 py-10 md:flex-col">
+      <div class="flex items-center justify-around px-28 py-10 sm:flex-col flex-wrap">
         <a href="https://fresatechnologies.com/">
           <div className="card__container mb-10">
             <div className="card ">
