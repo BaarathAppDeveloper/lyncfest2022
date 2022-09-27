@@ -8,33 +8,16 @@ import Link1 from "../imgs/link-a-link.png";
 import Loop from "../imgs/loop up.png";
 import Quiz from "../imgs/la Inquizition.png";
 import HH from "../imgs/HH.png";
-
 import "../Events.css";
-import { motion } from "framer-motion";
 
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 400,
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
-};
 function Events() {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
   return (
     <div id="events">
       <div class="bg-black">
         <div class="font-bold text-5xl bg-black text-white py-10">Events</div>
         <br />
         <div class="events">
-          <div className=" flex items-center justify-center gap-[20%]  px-28 py-16 md:flex-col">
+          <div className=" flex items-center justify-center gap-[20%]  px-28 py-16 sm:flex-col">
             <div>
               <div class="py-5">
                 <text class="text-xl font-nunito font-semibold text-white bottom-10">
@@ -84,7 +67,7 @@ function Events() {
         <div id="technical" class="font-bold text-3xl text-white  py-10">
           Technical Events
         </div>
-        <div className="flex items-center justify-around px-28 py-10 md:flex-col sm:flex-col ">
+        <div className="flex items-center justify-around px-28 py-10 md:gap-2 sm:flex-col ">
           <a href="/letterbox">
             <div className="card__container mb-10">
               <div className="card " data-aos="zoom-in">
@@ -144,7 +127,7 @@ function Events() {
           Non - Technical Events
         </div>
 
-        <div className="flex items-center justify-around px-28 py-10 md:flex-col ">
+        <div className="flex items-center justify-around px-28 py-10 md:gap-2 sm:flex-col ">
           <a href="lets-cliq">
             <div className="card__container mb-10">
               <div className="card" data-aos="zoom-in">
