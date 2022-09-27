@@ -1,22 +1,8 @@
 import React from "react";
 /* eslint-disable no-unused-vars */
-import { useEffect, useState } from "react";
-import Hack from "../hack in hub.png";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-// Import the functions you need from the SDKs you need
-import { Component } from "react";
-//import Blink from 'react-blink-text';
-import Font, { Text } from "react-font";
-import Shimmer from "react-shimmer-effect";
-import { FaArrowCircleUp } from "react-icons/fa";
 import ScrollToTop from "react-scroll-to-top";
-
-import Hack1 from "../hack_in_hub-removebg-preview.png";
 import Fest from "../logo-removebg-preview.png";
-
-import Head from "./Head";
-import Events from "./Events";
 
 const Title = () => {
   return (
@@ -52,7 +38,7 @@ const Title = () => {
                 <div className="">
                   <div className="ml-10 flex items-baseline space-x-4 text-lg font-nunito font-bold">
                     <a
-                      href=""
+                      href="/"
                       className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-semibold"
                     >
                       Home
@@ -100,7 +86,7 @@ const Title = () => {
                       class="p-2 border-2 rounded-xl border-teal-200 shadow-sm shadow-white hover:bg-sky-500 hover:text-white"
                     >
                       <a
-                        href="/lyncfest2022/#events"
+                        href="/#events"
                         className="text-gray-100 text-xl px-3 py-2 rounded-md  font-medium"
                       >
                         Register

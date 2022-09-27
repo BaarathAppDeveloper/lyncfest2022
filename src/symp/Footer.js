@@ -26,8 +26,11 @@ const Footer = () => {
                         ></path>
                       </svg>
                       <span class="text-lg font-nunito">
-                        <a href="mailto:lyncfest2022@gmail.com">
-                          lyncfest2022@gmail
+                        <a
+                          href="mailto:lyncfest@sairamit.edu.in
+"
+                        >
+                          lyncfest@sairamit.edu.in
                         </a>
                       </span>
                     </div>
@@ -50,7 +53,7 @@ const Footer = () => {
                             d="M449.366,89.648l-.685-.428L362.088,46.559,268.625,171.176l43,57.337a88.529,88.529,0,0,1-83.115,83.114l-57.336-43L46.558,362.088l42.306,85.869.356.725.429.684a25.085,25.085,0,0,0,21.393,11.857h22.344A327.836,327.836,0,0,0,461.222,133.386V111.041A25.084,25.084,0,0,0,449.366,89.648Zm-20.144,43.738c0,163.125-132.712,295.837-295.836,295.837h-18.08L87,371.76l84.18-63.135,46.867,35.149h5.333a120.535,120.535,0,0,0,120.4-120.4v-5.333l-35.149-46.866L371.759,87l57.463,28.311Z"
                           ></path>
                         </svg>
-                        <span className="dark:text-gray-400">9840799884</span>
+                        <span className="dark:text-gray-400">8778433024</span>
                       </span>
                     </div>
                     <br />
@@ -83,12 +86,12 @@ const Footer = () => {
                             d="M449.366,89.648l-.685-.428L362.088,46.559,268.625,171.176l43,57.337a88.529,88.529,0,0,1-83.115,83.114l-57.336-43L46.558,362.088l42.306,85.869.356.725.429.684a25.085,25.085,0,0,0,21.393,11.857h22.344A327.836,327.836,0,0,0,461.222,133.386V111.041A25.084,25.084,0,0,0,449.366,89.648Zm-20.144,43.738c0,163.125-132.712,295.837-295.836,295.837h-18.08L87,371.76l84.18-63.135,46.867,35.149h5.333a120.535,120.535,0,0,0,120.4-120.4v-5.333l-35.149-46.866L371.759,87l57.463,28.311Z"
                           ></path>
                         </svg>
-                        <span className="dark:text-gray-400">8778433024</span>
+                        <span className="dark:text-gray-400">9840799884</span>
                       </span>
                     </div>
                     <div></div>
                   </div>
-                  <div className=" flex flex-col justify-center space-y-3 p-5 dark:bg-gray-900">
+                  {/* <div className=" flex flex-col justify-center space-y-3 p-5 dark:bg-gray-900">
                     <div class="flex items-center space-x-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -163,28 +166,30 @@ const Footer = () => {
                       </span>
                     </div>
                     <div></div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
 
-            <div class="px-40">
+            <div class=" flex flex-col items-center">
               <img
-                class="bg-gray-800 px-36 py-4"
+                class="bg-gray-800 w-15 py-4 w-16"
                 src={Location}
                 height={350}
                 width={350}
                 alt=""
               />
-              <text class="text-2xl font-nunito font-bold text-white">
-                Sri Sairam Institute of Technology
-              </text>
-              <br />
-              <text class="text-xl font-nunito font-bold text-white">
-                Sai Leo Nagar, West Tambaram,
+              <div>
+                <text class="text-2xl font-nunito font-bold text-white">
+                  Sri Sairam Institute of Technology
+                </text>
                 <br />
-                Chennai - 600044
-              </text>
+                <text class="text-xl font-nunito font-bold text-white">
+                  Sai Leo Nagar, West Tambaram,
+                  <br />
+                  Chennai - 600044
+                </text>
+              </div>
             </div>
           </div>
           <div class="py-2 px-2">
@@ -197,7 +202,7 @@ const Footer = () => {
               <a class="py-2" href="https://www.instagram.com/lyncfest22/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-brand-instagram"
+                  className="icon icon-tabler icon-tabler-brand-instagram"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"

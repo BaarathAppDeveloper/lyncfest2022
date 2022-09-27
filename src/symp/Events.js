@@ -200,7 +200,7 @@ function Events() {
             </div>
           </a>
         </div>
-        <div class="flex-col grid-cols-3 justify-evenly">
+        {/* <div class="flex-col grid-cols-3 justify-evenly">
           <center>
             <div class="px-20 py-20">
               <text class="text-white font-bold text-3xl ">
@@ -248,7 +248,7 @@ function Events() {
               </div>
             </div>
           </center>
-        </div>
+        </div> */}
       </div>
     </div>
   );
