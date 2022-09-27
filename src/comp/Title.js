@@ -44,7 +44,7 @@ const Title = () => {
                 <span class="text-blue-300">
                   Bring-out your hidden tech genius in this{" "}
                   <text class="text-4xl font-bold text-blue-300">24</text> hours
-                  hackathon by solving difficult problems faced by the folks.
+                  hackathon by solving difficult problems faced by the public.
                 </span>
               </h1>
               <div class="py-5">
@@ -60,7 +60,7 @@ const Title = () => {
             </div>
           </header>
 
-          <div class="py-10">
+          {/* <div class="py-10">
             <div class="flex justify-center space-x-10 m-10 font-semibold">
               <div
                 class="bg-teal-500 text-white px-8 py-2 rounded-md flex items-center space-x-2"
@@ -100,7 +100,7 @@ const Title = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </center>
     </div>

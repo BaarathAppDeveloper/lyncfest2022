@@ -28,7 +28,7 @@ const Title = () => {
                 </a>
 
                 <div class="py-8 px-3 text-3xl font-bold text-white font-nunito">
-                  Lync Fest 2022 @ SIT
+                  Lync Fest 2022
                 </div>
               </div>
             </div>
@@ -52,13 +52,6 @@ const Title = () => {
                     </a>
 
                     <a
-                      href="#events"
-                      className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
-                    >
-                      Events
-                    </a>
-
-                    <a
                       href="/hackathon"
                       className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                     >
@@ -71,10 +64,10 @@ const Title = () => {
                       Contact
                     </a>
                     <a
-                      href="/#sponsers"
+                      href="/#sponsors"
                       className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                     >
-                      Sponsers
+                      Sponsors
                     </a>
 
                     <motion.div
@@ -89,7 +82,7 @@ const Title = () => {
                         href="/#events"
                         className="text-gray-100 text-xl px-3 py-2 rounded-md  font-medium"
                       >
-                        Register
+                        Events
                       </a>
                     </motion.div>
                   </div>

@@ -32,7 +32,7 @@ const Table = () => {
             </h2>
             <br />
             <br />
-            <div class="flex items-center justify-evenly h-16 py-11  font-bold">
+            {/* <div class="flex items-center justify-evenly h-16 py-11  font-bold">
               <div class=" container h-20 w-48 py-20">
                 <motion.div
                   whileHover={{
@@ -119,11 +119,7 @@ const Table = () => {
                   </a>
                 </motion.div>
               </div>
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
+            </div> */}
             <br />
             <br />
 

@@ -64,7 +64,7 @@ const Footer = () => {
                       ></path>
                     </svg>
                     <span className="dark:text-gray-400">
-                      Sri Vinayaka Bharathan
+                      Sri Vinayaga Barathan
                     </span>
                   </span>
                   <span className="flex items-center space-x-2">

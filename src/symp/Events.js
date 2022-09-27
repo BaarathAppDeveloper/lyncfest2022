@@ -78,8 +78,11 @@ function Events() {
             </div>
           </div>
         </div>
+        <div className="text-white">
+          <h2 className="text-[40px] font-bold underline">Register</h2>
+        </div>
         <div id="technical" class="font-bold text-3xl text-white  py-10">
-          Symposium
+          Technical Events
         </div>
         <div className="flex items-center justify-around px-28 py-10 md:flex-col sm:flex-col ">
           <a href="/letterbox">

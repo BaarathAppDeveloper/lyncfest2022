@@ -85,10 +85,10 @@ const Letter = () => {
                         Contact
                       </a>
                       <a
-                        href="/#sponsers"
+                        href="/#sponsors"
                         className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md  font-semibold"
                       >
-                        Sponsers
+                        Sponsors
                       </a>
 
                       <motion.div
