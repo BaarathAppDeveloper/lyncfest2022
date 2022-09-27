@@ -3,15 +3,12 @@ import FAQ from "./FAQ";
 import Guidelines from "./Guidelines";
 import Nav from "./Nav";
 
-
-const Modal=()=>{
-    return(
-        <div class="bg-black">
-            <Nav/>
-            <Guidelines/>
-            <FAQ/>
-        </div>
-        
-    )
-}
+const Modal = () => {
+  return (
+    <div class="bg-black">
+      <Nav />
+      <Guidelines />
+    </div>
+  );
+};
 export default Modal;

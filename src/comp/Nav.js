@@ -13,7 +13,7 @@ const Nav = () => {
         svgPath="m15.29 5.29-7 7L9.7 13.7 15 8.41V27h2V8.41l5.29 5.29 1.41-1.41-7-7a1 1 0 0 0-1.41 0z"
       />
       <nav className="w-[100vw] bg-conic-to-tl from-white via-blue-200 to-black h-24  ">
-        <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-8  py-0">
+        <div className="max-w-9xl mx-auto ">
           <div class="py-0">
             <div class="float-left grid grid-flow-col ">
               <a href="/">
@@ -27,16 +27,16 @@ const Nav = () => {
               </a>
               <a href="/hackathon">
                 <div class="py-8 px-3 text-3xl font-bold text-stone-100 font-nunito">
-                  Hack in Hub @ SIT
+                  Hack in Hub
                 </div>
               </a>
             </div>
           </div>
 
-          <div className="flex items-center justify-evenly h-16 py-11  font-bold text-white">
-            <div className="flex  justify-evenly float-left">
-              <div className="py-5 px-5">
-                <div className="ml-10 flex items-baseline space-x-4 text-lg">
+          <div className="flex items-center h-16 justify-evenly  font-bold text-white">
+            <div className="flex justify-evenly  float-left">
+              <div className="">
+                <div className=" flex items-baseline space-x-4 text-lg">
                   <a
                     href="/"
                     className="text-gray-100 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-semibold"

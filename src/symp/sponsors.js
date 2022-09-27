@@ -10,7 +10,7 @@ import BOSSE from "../imgs/BOSSE.png";
 
 const Sponsor = () => {
   return (
-    <div id="sponsers" class="bg-black py-10">
+    <div id="sponsors" class="bg-black py-10">
       <center class="text-3xl font-nunito text-white font-bold py-10">
         Sponsors
       </center>
