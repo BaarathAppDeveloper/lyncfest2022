@@ -2,8 +2,8 @@ import React from "react";
 import Location from "../imgs/icons8-location-update-50.png";
 const Footer = () => {
   return (
-    <div id="footer" class="justify-center items-center align-middle  py-16 bg-slate-800">
-      <footer className="px-4   text-gray-400 justify-center items-center align-middle">
+    <div id="footer" class="justify-center items-center align-middle  py-16  bg-slate-800">
+      <footer className="px-4   text-gray-400 justify-center items-center md:ml-20  align-middle">
         <div className="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
           <div className="flex flex-row pr-3 space-x-4 sm:space-x-8">
             <div className="max-w-md px-8 sm:flex sm:space-x-6 dark:bg-gray-900 dark:text-white">

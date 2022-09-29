@@ -50,7 +50,7 @@
  },
  {
   "S.no.": 8,
-  "Problem Id": "BC08",
+  "Problem Id": "BC08", 
   "Problem Statement": "Block chain based certificate validation",
   "Description":"create a Block chain environment/app to store all the  certificates as block chains so that all the certificates remain unique and authentic",
   "SDG": 9
@@ -59,7 +59,7 @@
   "S.no.": 9,
   "Problem Id": "BC09",
   "Problem Statement": "Network Traffic Analyzer",
-  "Description": "\"Background: Also called “Packet Sniffing”, network traffic analysis and monitoring is a process used to keep an eye on all incoming and outgoing traffic, network activity, and availability. It is used to detect anomalies, identifying operational issues, comparing real-time networks with historical data to identify potential threats and issues. For a project, you can analyze the data packets that are sent across the network. After analyzing these packets you can work on a report to give your insights, and if required, countermeasures if there is an anomaly. Summary: Also called “Packet Sniffing”, network traffic analysis and monitoring is a process used to keep an eye on all incoming and outgoing traffic, network activity, and availability. It is used to detect anomalies, identifying operational issues, comparing real-time networks with historical data to identify potential threats and issues. For a project, you can analyze the data packets that are sent across the network. After analyzing these packets you can work on a report to give your insights, and if required, countermeasures if there is an anomaly. Objective: : We need a software in which using your networking skills you can find out such anomalies in the network also as an extension, you could also devise software that could identify if there is a traffic analyzer in the network by an external agent.\"",
+  "Description": "Background: Also called “Packet Sniffing”, network traffic analysis and monitoring is a process used to keep an eye on all incoming and outgoing traffic, network activity, and availability. It is used to detect anomalies, identifying operational issues, comparing real-time networks with historical data to identify potential threats and issues. For a project, you can analyze the data packets that are sent across the network. After analyzing these packets you can work on a report to give your insights, and if required, countermeasures if there is an anomaly. Summary: Also called “Packet Sniffing”, network traffic analysis and monitoring is a process used to keep an eye on all incoming and outgoing traffic, network activity, and availability. It is used to detect anomalies, identifying operational issues, comparing real-time networks with historical data to identify potential threats and issues. For a project, you can analyze the data packets that are sent across the network. After analyzing these packets you can work on a report to give your insights, and if required, countermeasures if there is an anomaly. Objective: : We need a software in which using your networking skills you can find out such anomalies in the network also as an extension, you could also devise software that could identify if there is a traffic analyzer in the network by an external agent.",
   "SDG": 9
  },
  {

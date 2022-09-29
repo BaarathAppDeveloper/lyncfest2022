@@ -116,9 +116,9 @@ const Steps = () => {
                   className="w-24 opacity-70 ml-5"
                 />
               </div>
-              <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
+              <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 m lg:text-left">
                 <span className="text-xs tracking-wider uppercase dark:text-violet-400">
-                  Phase 5{" "}
+                  Phase 5
                 </span>
                 <span className="text-xl font-bold md:text-2xl">
                   Declaration of Results
