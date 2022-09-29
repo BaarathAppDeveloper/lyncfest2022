@@ -6,10 +6,12 @@ import Title from "./Title";
 import Footer from "./Footer";
 import Domains from "./Domains";
 
+
 const Home = () => {
   return (
-    <div class="py-0 bg-black">
+    <div class="py-0 bg-black overflow-hidden	">
       <Nav />
+      
       <Title />
       <Steps />
       <Domains />

@@ -5,16 +5,16 @@ const Steps = () => {
     <div id="schedule">
       <section className="bg-black text-gray-400">
         <div
-          className="container mx-auto flex flex-col p-6"
+          className="cursor-pointer  container mx-auto flex flex-col p-6"
           id="hackathon-schedule"
         >
           <h2 className="py-4 text-3xl font-bold text-center">
             Event Schedule
           </h2>
           <div className="divide-y divide-gray-700">
-            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+            <div className="grid  justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
               <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-                <svg
+                <svg 
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
                   fill="currentColor"
@@ -33,7 +33,7 @@ const Steps = () => {
                   Registration
                 </span>
                 <span className="mt-4 dark:text-gray-300">
-                  Timings: From 25th September
+                  DeadLine - October 10
                 </span>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Steps = () => {
                   Idea submission
                 </span>
                 <span className="mt-4 dark:text-gray-300">
-                  Shortlisted Results Date: TBA
+                  Shortlisted Results Date:October 12
                 </span>
               </div>
             </div>
@@ -78,9 +78,7 @@ const Steps = () => {
                   Phase 3
                 </span>
                 <span className="text-xl font-bold md:text-2xl">Hackathon</span>
-                <span className="mt-4 font-nunito  dark:text-gray-300">
-                  October 19 10.00 A.M ~ October 20, 10.00 A.M
-                </span>
+             
               </div>
             </div>
             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
@@ -103,9 +101,7 @@ const Steps = () => {
                 <span className="text-xl font-bold md:text-2xl">
                   Evaluation
                 </span>
-                <span className="mt-4 font-nunito dark:text-gray-300">
-                  Results : October 20, 10.30 P.M
-                </span>
+              
               </div>
             </div>
             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
@@ -123,9 +119,7 @@ const Steps = () => {
                 <span className="text-xl font-bold md:text-2xl">
                   Declaration of Results
                 </span>
-                <span className="mt-4 font-nunito dark:text-gray-300">
-                  Results : October 20, 3.00 P.M
-                </span>
+             
               </div>
             </div>
           </div>
