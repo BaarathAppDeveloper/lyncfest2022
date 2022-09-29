@@ -33,7 +33,7 @@ const Steps = () => {
                   Registration
                 </span>
                 <span className="mt-4 dark:text-gray-300">
-                  DeadLine - October 10
+                  Opens: 25th Sept 2022 
                 </span>
               </div>
             </div>
@@ -57,7 +57,11 @@ const Steps = () => {
                   Idea submission
                 </span>
                 <span className="mt-4 dark:text-gray-300">
-                  Shortlisted Results Date:October 12
+                  Closes: 10th October 2022.
+                  <br />
+                  <br />
+       
+                  Shortlisted teams announcement: 12th October 2022.
                 </span>
               </div>
             </div>

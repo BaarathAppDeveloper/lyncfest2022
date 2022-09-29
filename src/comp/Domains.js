@@ -72,7 +72,7 @@ const Domains = () => {
                   type="button"
                   class=" inline-block px-6 py-2.5 text-white font-medium text-base leading-tight uppercase rounded    transition duration-150 ease-in-out"
                 >
-                  Mobile and Web Development
+                  Mobile & Web Development
                 </button>
               </a>
             </div>
@@ -108,7 +108,7 @@ const Domains = () => {
                   type="button"
                   class=" inline-block px-6 py-2.5 text-white font-medium text-base leading-tight uppercase rounded    transition duration-150 ease-in-out"
                 >
-                  Blockchain and CyberSecurity
+                  Blockchain & CyberSecurity
                 </button>
               </a>
             </div>

@@ -45,12 +45,14 @@
   "S.no.": 7,
   "Problem Id": "BC07",
   "Problem Statement": "CAPTCHA\/alternative solution for Visually impaired",
+  "Description":"Create a alternate captcha solution that is usable by visually impaired person",
   "SDG": 9
  },
  {
   "S.no.": 8,
   "Problem Id": "BC08",
   "Problem Statement": "Block chain based certificate validation",
+  "Description":"create a Block chain environment/app to store all the  certificates as block chains so that all the certificates remain unique and authentic",
   "SDG": 9
  },
  {

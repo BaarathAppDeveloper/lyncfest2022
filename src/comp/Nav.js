@@ -42,7 +42,7 @@ const Nav = () => {
             <div className="flex justify-evenly ">
 
               {!navbar?
-              <img alt="hamburger" className="2xl:invisible cursor-pointer xl:visible   md:visible flex md:justify-end md:ml-28 md:mt-6   w-10" onClick={() => setNavbar(!navbar)}  src = "https://img.icons8.com/external-febrian-hidayat-gradient-febrian-hidayat/2x/external-hamburger-ui-essential-febrian-hidayat-gradient-febrian-hidayat.png" />:
+              <img alt="hamburger" className="2xl:invisible  md:visible sm:visible  cursor-pointer   flex md:justify-end md:ml-28 md:mt-6   w-10" onClick={() => setNavbar(!navbar)}  src = "https://img.icons8.com/external-febrian-hidayat-gradient-febrian-hidayat/2x/external-hamburger-ui-essential-febrian-hidayat-gradient-febrian-hidayat.png" />:
               <img alt="hamburger" className="hidden" onClick={() => setNavbar(!navbar)}  src = "https://img.icons8.com/external-febrian-hidayat-gradient-febrian-hidayat/2x/external-hamburger-ui-essential-febrian-hidayat-gradient-febrian-hidayat.png" />
 
             }
@@ -76,7 +76,7 @@ const Nav = () => {
                     Problem Statements
                   </a>
 
-                  <motion.div
+                  {/* <motion.div
                     whileHover={{
                       scale: 1.1,
                       transition: { duration: 1 },
@@ -90,7 +90,7 @@ const Nav = () => {
                     >
                       Register
                     </a>
-                  </motion.div>
+                  </motion.div> */}
                 </div>
               </div>
 
@@ -124,7 +124,7 @@ const Nav = () => {
                     Problem Statements
                   </a>
 
-                  <motion.div
+                  {/* <motion.div
                     whileHover={{
                       scale: 1.1,
                       transition: { duration: 1 },
@@ -138,7 +138,7 @@ const Nav = () => {
                     >
                       Register
                     </a>
-                  </motion.div>
+                  </motion.div> */}
                 </div>
               </div>
              )

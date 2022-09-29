@@ -2,7 +2,7 @@ import React from "react";
 
 const PS=()=>{
     return(
-        <div>
+        <div className="overflow-hidden">
             
         </div>
     )
