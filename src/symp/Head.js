@@ -93,7 +93,7 @@ const Head = () => {
         </div>
         <text class="text-slate-400 py-11 font-nunito text-4xl font-semibold">
           {" "}
-          October 19 - October 20 2K22
+          October 19 - October 20 2022
         </text>
         <br />
         <div class=" container h-20 w-48 py-20">

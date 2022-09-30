@@ -11,7 +11,7 @@ import TransitionsModal from "./Modal";
 
 const Symp=()=>{
     return(
-        <div>
+        <div className="overflow-hidden">
             <Title/>
             <Head/>
             <Aboutus/>
