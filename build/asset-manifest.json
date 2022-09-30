@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e53604c.css",
-    "main.js": "/static/js/main.a48915c1.js",
+    "main.css": "/static/css/main.3f12374c.css",
+    "main.js": "/static/js/main.7e567645.js",
     "static/js/787.6dc5d524.chunk.js": "/static/js/787.6dc5d524.chunk.js",
     "static/media/application-dev-banner@2x.png": "/static/media/application-dev-banner@2x.0d2774903cc77de1cf29.png",
     "static/media/BOSSE.png": "/static/media/BOSSE.f90501e0c4f8a6006772.png",
@@ -30,14 +30,15 @@
     "static/media/lync fest.jpg": "/static/media/lync fest.fe06eaea0adbbb63bff8.jpg",
     "static/media/link-a-link.png": "/static/media/link-a-link.9a6c90bef80c5bbef89f.png",
     "static/media/la Inquizition.png": "/static/media/la Inquizition.60a02e8fdba1724dffa9.png",
+    "static/media/hui.jpg": "/static/media/hui.316834f13d1d7e539d1c.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.7e53604c.css.map": "/static/css/main.7e53604c.css.map",
-    "main.a48915c1.js.map": "/static/js/main.a48915c1.js.map",
+    "main.3f12374c.css.map": "/static/css/main.3f12374c.css.map",
+    "main.7e567645.js.map": "/static/js/main.7e567645.js.map",
     "787.6dc5d524.chunk.js.map": "/static/js/787.6dc5d524.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e53604c.css",
-    "static/js/main.a48915c1.js"
+    "static/css/main.3f12374c.css",
+    "static/js/main.7e567645.js"
   ]
 }

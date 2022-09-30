@@ -1,27 +1,32 @@
 import React from "react";
-import Hack1 from "../hack_in_hub-removebg-preview.png";
+import Hack1 from "../imgs/hui.jpg";
 import venue from "../imgs/placeholder.png";
 import team from "../imgs/group.png";
 import money from "../imgs/euros-money-bag.png";
 
 const Title = () => {
+
+
+
   return (
     <div class="py-10 bg-black" id="Title">
+  
       <center class="">
         <div class="">
-          <img src={Hack1} height="500" width="500" alt="as" />
-
-          <header class="max-w-full md:w-1/2 mx-auto">
+          <div className="mt-20">
+                <img className="md:mt-48" src={Hack1}   alt="as" />
+          </div>
+          <header class="max-w-full md:w-1/2 mx-auto  space-y-10">
             <div class="relative flex flex-col justify-center items-center space-y-3 mx-10">
               <svg
                 viewBox="0 0 80 120"
                 fill="currentColor"
                 class="absolute bottom-0 left-0 z-0 w-32 text-white"
               >
-                <defs>
+                <defs className="md:hidden">
                   <pattern id="1" x="0" y="0" width=".1" height=".1">
-                    <circle cx="1" cy="1" r=".7"></circle>
-                  </pattern>
+                    <circle  cy="1" r=".7"></circle>
+                  </pattern>---
                 </defs>
                 <rect fill="url(#1)" width="80" height="120"></rect>
               </svg>
@@ -30,7 +35,7 @@ const Title = () => {
                 fill="currentColor"
                 class="absolute top-10 right-0 z-0 w-32 text-yellow-500"
               >
-                <defs>
+                <defs className="md:hidden">
                   <pattern id="2" x="0" y="0" width=".1" height=".1">
                     <circle cx="1" cy="1" r=".7"></circle>
                   </pattern>
@@ -38,15 +43,17 @@ const Title = () => {
                 <rect fill="url(#2)" width="80" height="120"></rect>
               </svg>
 
-              <h1 class="text-3xl font-bold text-center text-teal-500 ">
-                <h1 class="py-2">Join ~ Build ~ Learn</h1>
+              <h1 class="text-3xl font-bold text-center text-teal-500  md:w-96  md:text-xl">
+                <h1 class="py-2 md:w-96 md:text-3xl">Join ~ Build ~ Learn</h1>
                 <br />{" "}
                 <span class="text-blue-300">
                   Bring-out your hidden tech genius in this{" "}
-                  <text class="text-4xl font-bold text-blue-300">24</text> hours
+                  <text class="text-3xl font-bold text-green-300">{" "}24</text> hours
                   hackathon by solving difficult problems faced by the public.
+
                 </span>
               </h1>
+                    
               <div class="py-5">
                 <div class="flex items-center space-x-5 text-md font-semibold font-3xl p-4">
                   <a
@@ -55,7 +62,8 @@ const Title = () => {
                   >
                     Register
                   </a>
-                </div>
+                </div>+
+
               </div>
             </div>
           </header>
