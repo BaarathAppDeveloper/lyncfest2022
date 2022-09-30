@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div id="footer" className="py-16 bg-slate-800 ">
       <footer className=" text-gray-400">
-        <div className="container w-full flex flex-wrap items-center justify-center  space-y-4  ">
-          <div className="w-[100%] flex flex-row   sm:flex-col ">
-            <div className=" flex flex-col items-center justify-center space-y-3 ">
+        <div className=" w-full   space-y-4  ">
+          <div className="w-[100%] flex flex-row items-center justify-evenly  sm:flex-col ">
+            <div className=" flex flex-col items-center justify-center   space-y-3 ">
               <h2 className="text-xl font-semibold text-center">Contact</h2>
               <div className="max-w-md  sm:flex sm:space-x-6  dark:text-gray-100">
                 <div className="">
@@ -178,7 +178,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-[100%] mt-10 flex flex-col items-center justify-start">
+            <div className=" mt-10 flex flex-col items-center justify-start">
               <img
                 className="bg-gray-800 w-15  w-16 mb-5"
                 src={Location}
