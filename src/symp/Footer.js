@@ -98,97 +98,24 @@ const Footer = () => {
                       </span>
                     </div>
                   </div>
-                  {/* <div className=" flex flex-col justify-center space-y-3 p-5 dark:bg-gray-900">
-                    <div className="flex items-center space-x-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                        aria-label="Email address"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M274.6,25.623a32.006,32.006,0,0,0-37.2,0L16,183.766V496H496V183.766ZM464,402.693,339.97,322.96,464,226.492ZM256,51.662,454.429,193.4,311.434,304.615,256,268.979l-55.434,35.636L57.571,193.4ZM48,226.492,172.03,322.96,48,402.693ZM464,464H48V440.735L256,307.021,464,440.735Z"
-                        ></path>
-                      </svg>
-                      <span className="text-lg font-nunito">
-                        <a href="mailto:lyncfest2022@gmail.com">
-                          Overall contact
-                        </a>
-                      </span>
-                    </div>
-
-                    <div className="space-y-1 font-nunito">
-                      <span className="flex items-center space-x-2">
-                        <span className="dark:text-gray-400">
-                          Karathick kumar
-                        </span>
-                      </span>
-                      <span className="flex items-center space-x-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 512 512"
-                          aria-label="Phonenumber"
-                          className="w-4 h-4"
-                        >
-                          <path
-                            fill="currentColor"
-                            d="M449.366,89.648l-.685-.428L362.088,46.559,268.625,171.176l43,57.337a88.529,88.529,0,0,1-83.115,83.114l-57.336-43L46.558,362.088l42.306,85.869.356.725.429.684a25.085,25.085,0,0,0,21.393,11.857h22.344A327.836,327.836,0,0,0,461.222,133.386V111.041A25.084,25.084,0,0,0,449.366,89.648Zm-20.144,43.738c0,163.125-132.712,295.837-295.836,295.837h-18.08L87,371.76l84.18-63.135,46.867,35.149h5.333a120.535,120.535,0,0,0,120.4-120.4v-5.333l-35.149-46.866L371.759,87l57.463,28.311Z"
-                          ></path>
-                        </svg>
-                        <span className="dark:text-gray-400">9361351713</span>
-                      </span>
-                    </div>
-                    <br />
-                    <div className="space-y-1 font-nunito">
-                      <span className="flex items-center space-x-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 512 512"
-                          aria-label="Email address"
-                          className="w-4 h-4"
-                        >
-                          <path
-                            fill="currentColor"
-                            d="M274.6,25.623a32.006,32.006,0,0,0-37.2,0L16,183.766V496H496V183.766ZM464,402.693,339.97,322.96,464,226.492ZM256,51.662,454.429,193.4,311.434,304.615,256,268.979l-55.434,35.636L57.571,193.4ZM48,226.492,172.03,322.96,48,402.693ZM464,464H48V440.735L256,307.021,464,440.735Z"
-                          ></path>
-                        </svg>
-                        <span className="dark:text-gray-400">
-                          Sri Vinayaga Barathan
-                        </span>
-                      </span>
-                      <span className="flex items-center space-x-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 512 512"
-                          aria-label="Phonenumber"
-                          className="w-4 h-4"
-                        >
-                          <path
-                            fill="currentColor"
-                            d="M449.366,89.648l-.685-.428L362.088,46.559,268.625,171.176l43,57.337a88.529,88.529,0,0,1-83.115,83.114l-57.336-43L46.558,362.088l42.306,85.869.356.725.429.684a25.085,25.085,0,0,0,21.393,11.857h22.344A327.836,327.836,0,0,0,461.222,133.386V111.041A25.084,25.084,0,0,0,449.366,89.648Zm-20.144,43.738c0,163.125-132.712,295.837-295.836,295.837h-18.08L87,371.76l84.18-63.135,46.867,35.149h5.333a120.535,120.535,0,0,0,120.4-120.4v-5.333l-35.149-46.866L371.759,87l57.463,28.311Z"
-                          ></path>
-                        </svg>
-                        <span className="dark:text-gray-400">9245172470</span>
-                      </span>
-                    </div>
-                    <div></div>
-                  </div> */}
                 </div>
               </div>
             </div>
 
             <div className=" mt-10 flex flex-col items-center justify-start">
-              <img
-                className="bg-gray-800 w-15  w-16 mb-5"
-                src={Location}
-                height={350}
-                width={350}
-                alt=""
-              />
-              <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1749830688423!2d80.05104381525071!3d12.960652318624065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f51f638ddfbb%3A0xf3aef7ec7c8979ba!2sSri%20Sairam%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1664526430127!5m2!1sen!2sin"
+                width="300"
+                height="300"
+                style={{ border: 0, marginX: 20 }}
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Sri sai ram institute of technology"
+              ></iframe>
+              <div className="mt-10">
                 <text className="text-2xl font-nunito font-bold text-white">
-                  Sri Sairam Institute of Technology
+                  Sri Sai Ram Institute of Technology
                 </text>
                 <br />
                 <text className="text-xl font-nunito font-bold text-white">

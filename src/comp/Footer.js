@@ -99,16 +99,19 @@ const Footer = () => {
             </div>
 
             <div className=" mt-10 flex flex-col items-center justify-start">
-              <img
-                className="bg-gray-800 w-15  w-16 mb-5"
-                src={Location}
-                height={350}
-                width={350}
-                alt=""
-              />
-              <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1749830688423!2d80.05104381525071!3d12.960652318624065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f51f638ddfbb%3A0xf3aef7ec7c8979ba!2sSri%20Sairam%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1664526430127!5m2!1sen!2sin"
+                width="300"
+                height="300"
+                style={{ border: 0, marginX: 20 }}
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Sri sai ram institute of technology"
+              ></iframe>
+              <div className="mt-10">
                 <text className="text-2xl font-nunito font-bold text-white">
-                  Sri Sairam Institute of Technology
+                  Sri Sai Ram Institute of Technology
                 </text>
                 <br />
                 <text className="text-xl font-nunito font-bold text-white">
@@ -125,6 +128,7 @@ const Footer = () => {
                 Lyncfest
               </text>
               <br />
+
               <br />
               <a className="py-2" href="https://www.instagram.com/lyncfest22/">
                 <svg
