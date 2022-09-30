@@ -9,9 +9,8 @@ import Domains from "./Domains";
 
 const Home = () => {
   return (
-    <div class="py-0 bg-black overflow-hidden	">
+    <div class=" overflow-x-hidden bg-black  ">
       <Nav />
-      
       <Title />
       <Steps />
       <Domains />

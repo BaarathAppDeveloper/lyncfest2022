@@ -25,6 +25,7 @@
     "react-scroll-to-top": "^3.0.0",
     "react-shimmer-effect": "^1.0.9",
     "react-simple-typewriter": "^4.0.2",
+    "tailwind-scrollbar": "^2.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,5 +1,8 @@
 import React from "react";
 import Result from "../imgs/results.jpeg";
+
+
+
 const Steps = () => {
   return (
     <div id="schedule">
@@ -116,7 +119,7 @@ const Steps = () => {
                   className="w-24 opacity-70 ml-5"
                 />
               </div>
-              <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 m lg:text-left">
+              <div className="md:ml-4 flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 m lg:text-left">
                 <span className="text-xs tracking-wider uppercase dark:text-violet-400">
                   Phase 5
                 </span>

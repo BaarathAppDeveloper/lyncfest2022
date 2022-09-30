@@ -4,6 +4,8 @@ import venue from "../imgs/placeholder.png";
 import team from "../imgs/group.png";
 import money from "../imgs/euros-money-bag.png";
 
+
+
 const Title = () => {
 
 
@@ -26,7 +28,7 @@ const Title = () => {
                 <defs className="md:hidden">
                   <pattern id="1" x="0" y="0" width=".1" height=".1">
                     <circle  cy="1" r=".7"></circle>
-                  </pattern>---
+                  </pattern>
                 </defs>
                 <rect fill="url(#1)" width="80" height="120"></rect>
               </svg>
@@ -44,7 +46,11 @@ const Title = () => {
               </svg>
 
               <h1 class="text-3xl font-bold text-center text-teal-500  md:w-96  md:text-xl">
-                <h1 class="py-2 md:w-96 md:text-3xl">Join ~ Build ~ Learn</h1>
+                
+                  <h1 class="py-2 md:w-96 md:text-3xl">
+        Join ~ Build ~ Learn
+    </h1>
+
                 <br />{" "}
                 <span class="text-blue-300">
                   Bring-out your hidden tech genius in this{" "}
