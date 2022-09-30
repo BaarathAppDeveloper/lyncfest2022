@@ -4,10 +4,10 @@ function Aboutus() {
   return (
     <div id="aboutus">
       <div class="py-20 text-slate-400 bg-black">
-        <text class="py-10 text-3xl font-nunito font-semibold text-slate-100">
+        <text class="py-10 text-3xl font-nunito font-semibold text-slate-100 ">
           About Us
         </text>
-        <p class="py-10 text-2xl font-nunito font-semibold px-28 text-justify flex-col items-center">
+        <p class="py-10 text-2xl font-nunito font-semibold px-28 text-justify flex-col items-center sm:px-10">
           LyncFest is a National level Symposium organized by Sri Sai Ram
           Institute of Technology, Department of Information Technology in
           Association with Tagros Chemicals India Pvt. Ltd. It is where the

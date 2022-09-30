@@ -1,26 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Lync from "../imgs/lync fest.jpg";
-import Lync1 from "../imgs/logo-removebg-preview.png";
-import Quiz from "../imgs/la Inquizition.png";
 import "../Events.css";
 import { motion } from "framer-motion";
 import "../symp/landing.css";
-import { Link } from "react-router-dom";
 
-import Technical from "../imgs/technical-support.png";
-import Technical1 from "../imgs/technical-support-removebg-preview.png";
-import NonTech from "../imgs/garland-removebg-preview.png";
-
-import Hackathon from "../imgs/hack in hub.png";
-import Hack from "../imgs/hack_in_hub-removebg-preview.png";
-import Letter from "../imgs/letter box.png";
-import Legionz from "../imgs/legionz.png";
-import Cliq from "../imgs/let's cliq.png";
-import Link1 from "../imgs/link-a-link.png";
-import Loop from "../imgs/loop up.png";
-
-import Title from "./Title";
-import Aboutus from "./Aboutus";
 const Head = () => {
   const [days, setDays] = useState("--");
   const [hours, setHours] = useState("--");
@@ -68,27 +51,31 @@ const Head = () => {
   }, []);
   return (
     <div class="bg-black  font-nunito py-24">
-      <center class="py-10 font-bold text-2xl text-slate-200">
+      <center class="py-10 font-bold text-2xl text-slate-200 ">
         <img src={Lync} alt="" height={500} width={500} />
-        <div className="countdown py-20 ">
-          <div className="countdownitem">
-            <div className="time">{days}</div>
-            <p>Days</p>
+        <div className="countdown py-20 flex items-center justify-center flex-wrap sm:flex-col">
+          <div className="countdown">
+            <div className="countdownitem   ">
+              <div className="time">{days}</div>
+              <p>Days</p>
+            </div>
+            <div className="time__separator">:</div>
+            <div className="countdownitem">
+              <div className="time">{hours}</div>
+              <p>Hours</p>
+            </div>
           </div>
-          <div className="time__separator">:</div>
-          <div className="countdownitem">
-            <div className="time">{hours}</div>
-            <p>Hours</p>
-          </div>
-          <div className="time__separator">:</div>
-          <div className="countdownitem">
-            <div className="time">{mins}</div>
-            <p>Mins</p>
-          </div>
-          <div className="time__separator">:</div>
-          <div className="countdownitem">
-            <div className="time">{secs}</div>
-            <p>Secs</p>
+          <div className="time__separator mt-10 sm:hidden">:</div>
+          <div className="countdown">
+            <div className="countdownitem">
+              <div className="time">{mins}</div>
+              <p>Mins</p>
+            </div>
+            <div className="time__separator">:</div>
+            <div className="countdownitem">
+              <div className="time">{secs}</div>
+              <p>Secs</p>
+            </div>
           </div>
         </div>
         <text class="text-slate-400 py-11 font-nunito text-4xl font-semibold">

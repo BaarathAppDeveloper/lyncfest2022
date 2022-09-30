@@ -6,7 +6,6 @@ import Title from "./Title";
 import Footer from "./Footer";
 import Domains from "./Domains";
 
-
 const Home = () => {
   return (
     <div class=" overflow-x-hidden bg-black  ">
